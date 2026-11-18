@@ -1,0 +1,14 @@
+{
+  "id": "bluetoothBattery",
+  "name": "Bluetooth Battery",
+  "description": "Battery percentage of connected Bluetooth devices in DankBar",
+  "version": "0.1.0",
+  "author": "ntxinh",
+  "icon": "battery_android_full",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "component": "./BluetoothBatteryWidget.qml",
+  "settings": "./BluetoothBatterySettings.qml",
+  "requires_dms": ">=1.4.4",
+  "permissions": ["settings_read", "settings_write"]
+}

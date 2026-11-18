@@ -1,0 +1,23 @@
+[tasks.install]
+description = "Symlink this repo into DMS's plugin directory"
+run = "make install"
+
+[tasks.uninstall]
+description = "Remove the plugin symlink"
+run = "make uninstall"
+
+[tasks.reload]
+description = "Hot-reload the plugin in the running shell"
+run = "make reload"
+
+[tasks.status]
+description = "Show whether the plugin is loaded"
+run = "make status"
+
+[tasks.check]
+description = "Validate plugin.json and lint QML when qmllint exists"
+run = "make check"
+
+[tasks.logs]
+description = "Follow the DMS journal"
+run = "make logs"

@@ -1,0 +1,11 @@
+.agents
+.freebuff
+# superpowers execution workspace
+.superpowers/
+
+# QML / editor droppings
+*.qmlc
+.qmllint/
+*.swp
+*~
+.DS_Store
